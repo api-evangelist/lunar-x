@@ -1,7 +1,26 @@
 aid: lunar-x
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lunar-x.png
 name: Lunar-X
-description: 'Lunar-X is a company surfaced as a portfolio company of creandum and added to the API Evangelist
-  network as a stub for enrichment. Sector: other. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Lunar-X (Lunar X) is a global digital content studio that acquires, develops,
+  and operates creator-driven entertainment brands into globally recognized franchises
+  across animation, educational content, functional music, ecommerce, and live events.
+  Its properties include Economics Explained, Theorist Inc, Music Labs, and Lunar Kids,
+  collectively spanning tens of billions of views and over a hundred million subscribers.
+  The company was surfaced as a portfolio company of Creandum and added to the API
+  Evangelist network. As a media/content operator it publishes a marketing website
+  and privacy policy but exposes no public developer API, documentation, or developer
+  portal.'
 url: https://raw.githubusercontent.com/api-evangelist/lunar-x/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
-- Other
+- Media
+- Entertainment
+- Content
+- Digital Media
+- Creator Economy
+- YouTube
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +46,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/lunar-x-domain-security.yml
 - type: Website
   url: http://lunar-x.com/
+- type: About
+  url: http://lunar-x.com/about
+- type: PrivacyPolicy
+  url: http://lunar-x.com/privacy
+- type: LinkedIn
+  url: https://www.linkedin.com/company/lunar-x-media
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
